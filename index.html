@@ -5,53 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML email learning</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link
       href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: "Exo 2", sans-serif;
-        font-size: 125%;
-      }
-      th {
-        font-size: 1.9rem;
-        color: #e0674e;
-        font-weight: 700;
-      }
-      p{
-        color: #fff;
-        font-size: .9rem;
-      }
-      .center{
-        margin: 0 auto;
-      }
-      img{
-        display: block;
-      }
-      a{
-        color: #fff;
-        text-decoration: none;
-        padding: 0 10px;
-      }
-      i{
-        font-size: 1.9rem;
-      }
-     .skillIcons td {
-       vertical-align: bottom;
-       width: 12%;
-     }
-     .skillIcons img {
-       width: 85%;
-       margin: 0 auto;
-     }
-     .skillIcons p{
-       font-size: .6rem;
-     }
-    
-    </style>
+    <!-- style="font-family: Exo 2, sans-serif; font-size: 125%;" -->
   </head>
   <body>
     <table
@@ -70,7 +28,7 @@
           >
             <tr>
               <td>
-                <table cellpadding="20" id="emailHeader">
+                <table cellpadding="20" id="emailHeader" >
                   <tr>
                     <th align="center">
                       <img
@@ -85,15 +43,15 @@
             </tr>
             <tr>
               <td>
-                <table width="80%" class="center" id="emailBody">
+                <table width="80%"  id="emailBody" align="center">
                   <tr>
-                    <th>About</th>
+                    <th style="font-size: 1.9rem; color: #e0674e;font-weight: 700; font-family: Exo 2, sans-serif;">About</th>
                     <tr>
                       <td> <img src="https://www.dropbox.com/s/e890ldr4ztxer3t/portfolioImgLandscape.jpg?raw=1" alt="person sitting on stairs with Sydney Opera House in background" width="100%" style="padding-top: 20px;"></td>
                       <tr>
                     </tr>
                       <td> 
-                        <p>
+                        <p style="color: #fff; font-size: .9rem; font-family: Exo 2, sans-serif;">
                           Hi, I'm Nathaniel more commonly known as Nate. I am a
                           Web Developer based out of Oakville and a recent
                           graduate of Juno College of Technology. I am also a
@@ -106,7 +64,7 @@
                           that are responsive, accessible, creative and
                           minimalistic.
                         </p>
-                        <p>
+                        <p style="color: #fff; font-size: .9rem; font-family: Exo 2, sans-serif;">
                           Aside from coding, I enjoy watching and playing sports,
                           playing video games, traveling, and photography.
                         </p>
@@ -114,62 +72,62 @@
                     </tr>
                   </tr>
                   <tr>
-                    <th>Skills</th>
+                    <th style="font-size: 1.9rem; color: #e0674e;font-weight: 700;">Skills</th>
                     <tr>
                       <td>
                         <table width="100%" cellspacing="10" cellpadding="5" id="skillIcons" class="skillIcons">
                           <tr>
-                            <td  >
-                              <img src="https://www.dropbox.com/s/q4bz6bsvrjmirry/htmlIcon.svg?raw=1" alt="HTML Icon">
-                              <p align="center">HTML</p>
+                            <td style="vertical-align: bottom; width: 12%;" align="center" >
+                              <img src="https://www.dropbox.com/s/q4bz6bsvrjmirry/htmlIcon.svg?raw=1" alt="HTML Icon" style="width: 85%; margin: 0 auto;">
+                              <p align="center" style="color: #fff; font-size: .6rem;">HTML</p>
                             </td>
-                            <td >
-                              <img src="https://www.dropbox.com/s/tet4uhrplyuk6b2/cssIcon.svg?raw=1" alt="CSS Icon" > 
-                              <p align="center">CSS</p>
+                            <td style="vertical-align: bottom; width: 12%;" align="center">
+                              <img src="https://www.dropbox.com/s/tet4uhrplyuk6b2/cssIcon.svg?raw=1" alt="CSS Icon" style="width: 85%; margin: 0 auto;"> 
+                              <p align="center" style="color: #fff; font-size: .6rem;">CSS</p>
                             </td>
-                            <td >
-                              <img src="https://www.dropbox.com/s/sgpdc9d5rnsr3sq/javascriptIcon.svg?raw=1" alt="JavaScript Icon" > 
-                              <p align="center">JavaScript</p>
+                            <td style="vertical-align: bottom; width: 12%;" align="center">
+                              <img src="https://www.dropbox.com/s/sgpdc9d5rnsr3sq/javascriptIcon.svg?raw=1" alt="JavaScript Icon" style="width: 85%; margin: 0 auto;"> 
+                              <p align="center" style="color: #fff; font-size: .6rem;">JavaScript</p>
                             </td>
-                            <td >
-                              <img src="https://www.dropbox.com/s/m67nef7xrc2vskd/reactIcon.svg?raw=1" alt="React Icon" > 
-                              <p align="center">React</p>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td  >
-                              <img src="https://www.dropbox.com/s/ulxi22z5gz3m7os/sassIcon.svg?raw=1" alt="Sass Icon" >
-                              <p align="center">Sass</p>
-                            </td>
-                            <td  >
-                              <img src="https://www.dropbox.com/s/9qwv0u3ylkhueb1/gitIcon.svg?raw=1" alt="Git Icon" >
-                              <p align="center">Git/Github</p>
-                            </td>
-                            <td  >
-                              <img src="https://www.dropbox.com/s/8fwzt654sl9bcez/terminalIcon.svg?raw=1" alt="Terminal Icon" >
-                              <p align="center">Terminal</p>
-                            </td>
-                            <td  >
-                              <img src="https://www.dropbox.com/s/xotwfdz6siidr4p/inkscapeIcon.svg?raw=1" alt="Inkscape Icon" > 
-                              <p align="center">Inkscape</p>
+                            <td style="vertical-align: bottom; width: 12%;" align="center">
+                              <img src="https://www.dropbox.com/s/m67nef7xrc2vskd/reactIcon.svg?raw=1" alt="React Icon" style="width: 85%; margin: 0 auto;"> 
+                              <p align="center" style="color: #fff; font-size: .6rem;">React</p>
                             </td>
                           </tr>
                           <tr>
-                            <td  >
-                              <img src="https://www.dropbox.com/s/s6x3ninjt2ldzbq/adobeIcon.svg?raw=1" alt="Adobe Creative Cloud Icon" > 
-                              <p align="center">Adobe CC</p>
+                            <td style="vertical-align: bottom; width: 12%;" align="center">
+                              <img src="https://www.dropbox.com/s/ulxi22z5gz3m7os/sassIcon.svg?raw=1" alt="Sass Icon" style="width: 85%; margin: 0 auto;">
+                              <p align="center" style="color: #fff; font-size: .6rem;">Sass</p>
                             </td>
-                            <td  >
-                              <img src="https://www.dropbox.com/s/56myn1lxmzaq9bh/figmaIcon.svg?raw=1" alt="Figma Icon" > 
-                              <p align="center">Figma</p>
+                            <td style="vertical-align: bottom; width: 12%;" align="center">
+                              <img src="https://www.dropbox.com/s/9qwv0u3ylkhueb1/gitIcon.svg?raw=1" alt="Git Icon" style="width: 85%; margin: 0 auto;">
+                              <p align="center" style="color: #fff; font-size: .6rem;">Git/Github</p>
                             </td>
-                            <td  >
-                              <img src="https://www.dropbox.com/s/a7fjv6h5fmfa933/firebaseIcon.svg?raw=1" alt="Firebase Icon" >
-                              <p align="center">Firebase</p>
+                            <td style="vertical-align: bottom; width: 12%;" align="center">
+                              <img src="https://www.dropbox.com/s/8fwzt654sl9bcez/terminalIcon.svg?raw=1" alt="Terminal Icon" style="width: 85%; margin: 0 auto;">
+                              <p align="center" style="color: #fff; font-size: .6rem;">Terminal</p>
                             </td>
-                            <td  >
-                              <img src="https://www.dropbox.com/s/sxx95occrvdjklf/apiIcon.svg?raw=1" alt="API Icon" >
-                              <p align="center">API</p>
+                            <td style="vertical-align: bottom; width: 12%;" align="center">
+                              <img src="https://www.dropbox.com/s/xotwfdz6siidr4p/inkscapeIcon.svg?raw=1" alt="Inkscape Icon" style="width: 85%; margin: 0 auto;"> 
+                              <p align="center" style="color: #fff; font-size: .6rem;">Inkscape</p>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td style="vertical-align: bottom; width: 12%;" align="center">
+                              <img src="https://www.dropbox.com/s/s6x3ninjt2ldzbq/adobeIcon.svg?raw=1" alt="Adobe Creative Cloud Icon" style="width: 85%; margin: 0 auto;"> 
+                              <p align="center" style="color: #fff; font-size: .6rem;">Adobe CC</p>
+                            </td>
+                            <td style="vertical-align: bottom; width: 12%;" align="center">
+                              <img src="https://www.dropbox.com/s/56myn1lxmzaq9bh/figmaIcon.svg?raw=1" alt="Figma Icon" style="width: 85%; margin: 0 auto;"> 
+                              <p align="center" style="color: #fff; font-size: .6rem;">Figma</p>
+                            </td>
+                            <td style="vertical-align: bottom; width: 12%;" align="center">
+                              <img src="https://www.dropbox.com/s/a7fjv6h5fmfa933/firebaseIcon.svg?raw=1" alt="Firebase Icon" style="width: 85%; margin: 0 auto;">
+                              <p align="center" style="color: #fff; font-size: .6rem;">Firebase</p>
+                            </td>
+                            <td style="vertical-align: bottom; width: 12%;" align="center">
+                              <img src="https://www.dropbox.com/s/sxx95occrvdjklf/apiIcon.svg?raw=1" alt="API Icon" style="width: 85%; margin: 0 auto;">
+                              <p align="center" style="color: #fff; font-size: .6rem;">API</p>
                             </td>
                           </tr>
                         </table>                      
@@ -177,7 +135,7 @@
                     </tr>
                   </tr>
                   <tr>
-                    <th>Projects</th>
+                    <th style="font-size: 1.9rem; color: #e0674e;font-weight: 700;">Projects</th>
                     <td>
                       
                     </td>
@@ -186,24 +144,24 @@
               </td>
             </tr>
             <td>
-              <table width="100%" class="center" style="background-color:#e0674e" id="emailFooter">
+              <table width="100%" style="background-color:#e0674e; margin: 0 auto;" align="center" id="emailFooter">
                 <td>
-                  <table width="80%" class="center" id="emailFooter">
+                  <table width="80%" style="margin: 0 auto;" align="center" id="emailFooter">
                     <tr>
-                      <th style="color: #fff;">Contact</th>
+                      <th style="font-size: 1.9rem; color: #e0674e;font-weight: 700; color: #fff;" align="center">Contact</th>
                       <tr>
-                        <td align="center" style="padding: 20px 0;"><a href="mailto:nathaniel.yeow@gmail.com">nathaniel.yeow(at)gmail.com</a></td>
+                        <td align="center" style="padding: 20px 0;"><a href="mailto:nathaniel.yeow@gmail.com" style="color: #fff; text-decoration: none; font-size: 2rem;">nathaniel.yeow(at)gmail.com</a></td>
                       </tr>
                           <td>
                             <table align="center" id="contactIcons">
-                              <td>
-                                <a href="https://github.com/NateY98" target="_blank"><i class="fab fa-github-square"></i></a>
+                              <td align="center">
+                                <a href="https://github.com/NateY98" target="_blank" style="color: #fff; text-decoration: none; padding: 0 10px;"><img src="https://www.dropbox.com/s/wpfnwgl26w7uhid/github-sign.png?raw=1" alt="GitHub Icon" style="width: 40%; margin: 0 auto;"></a>
                               </td>
-                              <td>
-                                <a href="https://www.linkedin.com/in/nathaniel-yeow/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                              <td align="center">
+                                <a href="https://www.linkedin.com/in/nathaniel-yeow/" target="_blank" style="color: #fff; text-decoration: none; padding: 0 10px;"><img src="https://www.dropbox.com/s/xfnpg48ly4gacgx/linkedin.png?raw=1" alt=" Linkedin Icon" style="width: 40%; margin: 0 auto;"></a>
                               </td>
-                              <td> 
-                                <a href="https://www.instagram.com/jpg_ny/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                              <td align="center"> 
+                                <a href="https://www.instagram.com/jpg_ny/" target="_blank" style="color: #fff; text-decoration: none; padding: 0 10px;"><img src="https://www.dropbox.com/s/ubgvfkgxtipag13/instagram.png?raw=1" alt="Instagram Icon" style="width: 40%; margin: 0 auto;"></a>
                               </td>
                             </table>
                           </td>
@@ -214,7 +172,7 @@
             </td>
             <tr>
               <td>
-                <table width="80%" cellpadding="20" class="center" id="emailFooter">
+                <table width="80%" cellpadding="20" style="margin: 0 auto;" align="center" id="emailFooter">
                   <tr>
                     <th style="font-size: .9rem; color: white; font-weight: 200;">Created and Designed by Nate Yeow</th>
                   </tr>
